@@ -9,7 +9,8 @@ public class TypesOfTryCatch {
         System.out.print("Enter the operation: ");
         int op = sc.nextInt();
         switch (op) {
-            case 1:
+            //Arithmetic Exception 
+            case 1: 
                 int a = 50;
                 int b = 0;
                 try {
@@ -22,7 +23,8 @@ public class TypesOfTryCatch {
                 }
                 System.out.println("End of the program");
                 break;
-            
+
+            //Array Index Out Of Bounds Exception
             case 2:
                 int marks [] = new int [3];
                 marks[0] = 6;
@@ -52,6 +54,7 @@ public class TypesOfTryCatch {
                 }
                 break;  
 
+            //Null Pointer Exception
             case 3:
                 String name = null;
                 try {
